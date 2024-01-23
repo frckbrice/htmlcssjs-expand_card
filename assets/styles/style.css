@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: roboto, "sans-serif";
+  font-family: roboto, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,6 @@ body {
 }
 
 .panel {
-  flex: 1;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +38,7 @@ body {
   position: absolute;
   bottom: 40px;
   left: 10px;
-  color: rgba(65, 65, 23, 0.826);
+  color: rgba(65 65 23/ 82.6%);
   width: fit-content;
   word-wrap: break-word;
   opacity: 0;
@@ -64,7 +63,4 @@ body {
   .panel:nth-last-of-type(6) {
     display: none;
   }
-  /* .panel.active {
-    flex: 10;
-  } */
 }
